@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&display=swap&subset=latin-ext,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Aleo:300,300i,400,400i,700,700i&display=swap&subset=latin-ext'); // @font-face {
+
+@import 'reset';
+$bg-color: rgb(255, 255, 255);
+$bg-line-width: 1024px;
+$bg-line-height: 6px;
+
+.topmenu {
+  margin-right: 10px;
+
+  .topmenu-ico {
+    margin-top: -5px;
+  }
+
+  &__a {
+    font-size: 22px;
+    color: #009688;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  &__a:hover {
+    color: #673ab7;
+  }
+}
+
+.header-h1 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.home-h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #3F51B5;
+
+}
+.search {
+  .search-form {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+
+    .search-form-label {
+      border: 2px solid #1976d2;
+      border-radius: 47px;
+      padding: 7px;
+      margin-right: 30px;
+      color: #1976d2;
+      font-weight: bold;
+
+      .form-label-input {
+        text-align: center;
+        font-size: 15px;
+      }
+
+      .form-label-input::placeholder {
+        color: #00000040;
+      }
+    }
+  }
+
+  .search__card {
+    max-width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .image-card {
+      width: 225px !important;
+      height: 350px !important;
+      margin-bottom: 10px !important;
+    .search__card__image{
+
+    }
+  }
+}
+
+.search-button {
+  height: 36px !important;
+  margin-top: -3px !important;
+}
+
+.image-title {
+  font-size: 12px;
+  line-height: 12px;
+  border-radius: 35px;
+  padding: 7px;
+  background-color: #1976d2a3;
+  color: #fff;
+}
+.login-form{
+  width: 650px;
+  margin: 0 auto;
+}
+.form-login-btn{
+  width: 100%;
+}
+.login-form-h1{
+  text-align: center;
+  font-size: 25px;
+}
+.form-register{
+  width: 650px;
+  margin: 0 auto;
+}
+.form-register-btn{
+  width: 100%;
+}
+.form-register-h1{
+  text-align: center;
+  font-size: 25px;
+}
+.form-upload{
+  width: 650px;
+  margin: 0 auto;
+}
